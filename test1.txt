@@ -1,0 +1,158 @@
+hello everyone welcome back I know you
+will be anticipating the lecture on join
+operations I feel understanding null
+values before join operations is truly
+beneficial and that is why we are here
+today in today's lecture let's focus on
+null values in our
+dbms before we step into the topic of
+the day let's see an analogy that helps
+us to understand the importance of null
+values in
+rdbms please assume this is me and I
+going to register my profile to a
+website if the registration form is
+asking for my name in that case I will
+be obviously providing my name and this
+name field which is shown in the
+registration form can be a mandatory
+field in the form because everyone will
+have their name
+if the registration form asks for the
+spouse name let's say I'm talking about
+the registration form that is asking for
+the next field which is the spouse name
+here comes the problem if I am a married
+person obviously I'll be having a spouse
+name what if I'm not a married person so
+this field I mean this spouse name field
+cannot be a mandatory field in the
+registration form and coming to the next
+field the gender field which is shown in
+the registration form this can be a
+mandatory field because it may be either
+male or female or transgender coming to
+the next field the salary field and here
+comes another problem this salary field
+cannot be mandatory because this is
+applicable only for people who are
+employed or they are entrepreneurs or if
+they have a regular income coming to the
+next field the date of birth field this
+field can be a mandatory field because
+everyone will have their date of birth
+and also the age so in this form If You
+canly observe there are two fields for
+example one the spouse name field and
+number two the salary field which cannot
+be mandatory Fields however the form
+that I am referring currently is
+designed in the front-end programming
+language tools maybe Java or net or
+python or HTML or whatsoever and all the
+data that are sent from the front end
+will be actually stored in the back end
+obviously which is going to be the table
+in the
+database in the table all these fields
+that we are referring to all will be the
+attributes or the columns right in that
+case if a married person provides values
+he or she will be providing the data for
+the spouse name similarly if an employed
+person or an entrepreneur is filling the
+form he will be providing some values
+for the salary field so what I mean to
+say here is what if an unmarried person
+is filling the form or or a student who
+is not employed anywhere who is filling
+this form obviously there cannot be a
+spouse name field to be precise the
+spouse name value will be empty in this
+case as well as salary will be empty in
+this case does that mean that blank or
+empty is the name of the spouse no it is
+certainly not so what I mean to say here
+is we should have a special value that
+represents either a missing value or a
+not applicable or not available value
+and that is why we are here in today's
+presentation which is the null values in
+dbms as I already told you it is a
+special value in database management
+system remember if a column or an
+attribute is accepting null values it
+means it represents the values of
+attributes that are unknown which is not
+known or not applicable which is not
+appropriate for that person ver or
+missing this is important when we talk
+about join operations and that is why
+before join operations I am dealing with
+the null values all these values of that
+attributes are obviously for that
+particular row so when a person is going
+to insert a row in that row if we find a
+null value it means it may be unknown or
+not applicable or missing and please
+remember null values is neither blank
+nor zero this is very important so what
+does it mean this null value can be an
+unknown value or a not applicable value
+or a missing value and that's what I
+have meant if the value is unknown then
+null values can be used if the value is
+not available at that moment or maybe in
+the future he may be updating whatsoever
+in that circumstance it can be a null
+value if the value is either missing or
+not applicable in that case also it is
+null values let's say we are joining two
+tables and the resultant table which is
+the output of the join operation
+contains the rows from both the tables
+let's assume there is one or more field
+and the values are empty in that case it
+means join is performed but the value is
+missing or not applicable in that case
+we need the importance of having null
+values coming to the last one remember
+in SQL or or SQL the structured query
+language there is a constraint a special
+type of condition we can enforce to the
+database table that not null it means if
+a field is set as not null it is a
+mandatory field user has to compulsorily
+give the value for example first name
+can be a Nal field but not the middle
+name because we can't expect everyone
+should have a middle name first name and
+last name may be compulsory another
+example salary if we enforce not null it
+means user must compulsorily provide
+values anyway don't worry about this now
+we will be talking about this Nal
+constraint elaborately in the coming
+lectures before we sign out there is an
+homework activity for you here is the
+table and this table is the customer
+table which is populated with certain
+values and the attributes are ID
+customer ID customer name SSN the social
+security number spouse name phone email
+you can match SSN like your AAR number
+what's the activity just keenly observe
+this table and note down which field
+should accept null values and after
+identifying this post your answers in
+the comment
+section and that's it guys I hope you
+guys enjoyed this presentation I'll see
+you in the next presentation
+demystifying join operations elaborately
+I hope the session is informative and
+thank you for
+[Music]
+[Applause]
+[Music]
+watching
